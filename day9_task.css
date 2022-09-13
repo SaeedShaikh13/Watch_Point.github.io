@@ -1,0 +1,319 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav {
+  width: auto;
+  height: 50px;
+  background-color: black;
+  border: 3px solid gold;
+  border-radius: 10px;
+  background-image: url(./maxresdefault-2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2px;
+  justify-content: center;
+}
+
+.search input {
+  position: absolute;
+  top: 10px;
+  right: 115px;
+  font-size: 20px;
+  border-radius: 10px;
+  height: 35px;
+  width: 320px;
+}
+
+.button {
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  height: 35px;
+  width: 90px;
+}
+.button:active {
+  background-color: #2b558d;
+}
+
+.crd2 {
+  height: 200px;
+  width: 200px;
+}
+
+.nav ul {
+  display: flex;
+  padding-top: 6px;
+  list-style: none;
+  padding-left: 150px;
+}
+
+.nav ul a {
+  text-decoration: none;
+  padding: 25px;
+  color: white;
+  font-size: 25px;
+}
+
+.nav ul a:hover {
+  background-color: crimson;
+  border-radius: 10px;
+}
+.nav ul a:active {
+  background-color: white;
+  color: black;
+}
+
+input {
+  color: black;
+
+  display: flex;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.image {
+  width: auto;
+  height: 450px;
+  background-color: white;
+  display: flex;
+
+  /* background-image: url(/Practice/watch2.webp); */
+  /* background-repeat: no-repeat; */
+  /* background-size:contain; */
+  /* justify-content: center; */
+}
+
+.cards {
+  display: flex;
+  width: auto;
+  height: 350px;
+  background-color: white;
+}
+
+.cards2 {
+  display: flex;
+  width: auto;
+  height: 400px;
+  background-color: dimgray;
+}
+
+.crd {
+  width: 200px;
+  height: 250px;
+  /* background-color: white; */
+  margin: 20px 50px;
+  /* padding: px; */
+  /* border:solid 4px  black; */
+}
+
+.crd img:hover {
+  zoom: 105%;
+  border: black solid 4px;
+}
+.crd img {
+  border: black solid 4px;
+}
+
+.button1 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+.button2 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+.button3 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+.button4 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+.button1:hover {
+  background-color: rgb(250, 137, 95);
+}
+.button2:hover {
+  background-color: rgb(250, 137, 95);
+}
+.button3:hover {
+  background-color: rgb(250, 137, 95);
+}
+.button4:hover {
+  background-color: rgb(250, 137, 95);
+}
+
+.button1:active {
+  background-color: #2b558d;
+  color: white;
+}
+.button2:active {
+  background-color: #2b558d;
+  color: white;
+}
+
+.button3:active {
+  background-color: #2b558d;
+  color: white;
+}
+.button4:active {
+  background-color: #2b558d;
+  color: white;
+}
+/* .para {
+  height: 100px;
+  background-color: coral;
+  justify-content: center;
+} */
+
+.cards2 {
+  width: auto;
+  height: 350px;
+  background-color: white;
+}
+.crd2 {
+  width: 180px;
+  height: 230px;
+  background-color: firebrick;
+  margin: 20px 68px;
+  border: solid black 4px;
+}
+
+.crd2:hover {
+  zoom: 105%;
+  border: thin 2px black;
+}
+
+.crd2button1 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-top: 7px;
+
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+.crd2button2 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 7px;
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+.crd2button3 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 7px;
+
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+.crd2button4 {
+  background-color: coral;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 7px;
+
+  padding-left: 5px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+.crd2button1:hover {
+  background-color: rgb(250, 137, 95);
+}
+
+.crd2button2:hover {
+  background-color: rgb(250, 137, 95);
+}
+
+.crd2button3:hover {
+  background-color: rgb(250, 137, 95);
+}
+
+.crd2button4:hover {
+  background-color: rgb(250, 137, 95);
+}
+
+.crd2button1:active {
+  background-color: #2b558d;
+  color: white;
+}
+.crd2button2:active {
+  background-color: #2b558d;
+  color: white;
+}
+.crd2button3:active {
+  background-color: #2b558d;
+  color: white;
+}
+.crd2button4:active {
+  background-color: #2b558d;
+  color: white;
+}
+
+.Footer {
+  background-color: black;
+  color: wheat;
+
+  width: auto;
+  height: 150px;
+}
+
+.COMPANY {
+  margin-left: 40%;
+  display: flex;
+  text-decoration: underline coral;
+}
+
+.about {
+  display: flex;
+  margin-left: 23%;
+  text-decoration: none;
+  font-size: 23px;
+}
+.bu {
+  margin-left: 1000px;
+  margin-bottom: 1500px;
+  position: absolute;
+  top: 1670px;
+  
+}
+.su {
+  /* margin-left: 1000px; */
+
+  margin-top: 10px;
+  margin-left: 90px;
+  border-radius: 5px;
+  box-shadow: solid skyblue;
+}
